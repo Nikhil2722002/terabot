@@ -11,7 +11,7 @@ from typing import Optional
 from telegram import Message
 
 from config import PROGRESS_UPDATE_INTERVAL
-from utils.downloader import download_file
+from services.utils.downloader import download_file
 from utils.zipper import create_zip
 from utils.progress import ProgressTracker
 from utils.file_utils import get_temp_dir, cleanup_temp_dir
